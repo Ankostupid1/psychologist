@@ -13,11 +13,11 @@
     }
   ],
   "env": {
-    "SMTP_HOST": "@smtp-host",
-    "SMTP_PORT": "@smtp-port",
-    "SMTP_USER": "@smtp-user",
-    "SMTP_PASSWORD": "@smtp-password",
-    "SMTP_FROM": "@smtp-from",
-    "SMTP_TO": "@smtp-to"
+    "SMTP_HOST": "SMTP_HOST",
+    "SMTP_PORT": "SMTP_PORT",
+    "SMTP_USER": "SMTP_USER",
+    "SMTP_PASSWORD": "SMTP_PASSWORD",
+    "SMTP_FROM": "SMTP_FROM",
+    "SMTP_TO": "SMTP_TO"
   }
 }
