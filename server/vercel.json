@@ -2,16 +2,18 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.js",
+      "src": "server.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "index.js"
+      "src": "/api/contact",
+      "methods": ["POST"],
+      "dest": "server.js"
     }
   ],
+
   "env": {
     "SMTP_HOST": "SMTP_HOST",
     "SMTP_PORT": "SMTP_PORT",
