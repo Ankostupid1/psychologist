@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+AWS_REGION=your-aws-region (e.g., us-east-1)
+AWS_ACCESS_KEY_ID=AKIA5L4RDCLCFRU2HAHI
+AWS_SECRET_ACCESS_KEY=BEtHE3M/Y9k5aDHf2EOdkeQVF6UoXP3Wj79rrzxJ6mWF
+FROM_EMAIL=your-verified-ses-antonykariuki858@gmail.com
+TO_EMAIL=your-personal-antonykariuki858@gmail.com
+SEND_COPY_TO_USER=true (or false)
