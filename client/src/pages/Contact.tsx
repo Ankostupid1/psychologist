@@ -19,10 +19,10 @@ const Contact = () => {
 
           <div className="grid md:grid-cols-2 gap-10">
             {/* Contact Form */}
-            <div className="bg-white p-6 md:p-8 rounded-xl shadow-lg">
+            {/* <div className="bg-white p-6 md:p-8 rounded-xl shadow-lg">
               <h3 className="text-2xl font-serif mb-6 text-olive">Send a Message</h3>
               <ContactForm />
-            </div>
+            </div> */}
 
             {/* Contact Information */}
             <div className="space-y-8">
