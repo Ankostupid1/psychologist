@@ -1,7 +1,7 @@
 [build]
   command = "npm run build"
   functions = "netlify-functions"
-  publish = "out"  # or "build" depending on your framework
+  publish = "#"  # or "build" depending on your framework
 
 [[redirects]]
   from = "/api/*"
